@@ -1,0 +1,236 @@
+/*全局样式设置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a,button,input{
+    outline: none;
+}
+hr{
+    border: solid 1px #efefef;
+}
+body{
+    background-color: #efefef;
+    font-family: "Microsoft YaHei";
+}
+/*整体承载块*/
+#aicontainer{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*左边部分*/
+#aileft{
+    text-align: center;
+    padding-top: 25px;
+    width: 350px;
+    position: fixed;
+    float: left;
+}
+#ailogo{
+    margin: 0px 0 15px 0;
+    cursor: pointer;
+}
+#ailogo img{
+    width:80px;
+}
+
+/*设置初始状态、设置最终状态黑色字*/
+.hinttitle{
+    color: #494949;
+    margin-bottom: 10px;
+}
+
+/*两个盒子的外框样式*/
+.f-c-wrapper,.l-c-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: gainsboro;
+    height: 200px;
+    border-radius: 12px;
+}
+.cardswrapper{
+    padding: 10px 0px 0px 13px;
+    width: 125px;
+    height: 125px;
+}
+#f-box,#l-box{
+    padding: 10px 0px 0px 13px;
+    width: 125px;
+    height: 125px;
+}
+
+
+/*左边盒子（卡片区样式）*/
+#f-cards,#l-cards{
+    width: 150px;
+    background-color: #EFEFEF;
+    height: 170px;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+/*右边盒子（拖拽目标区）*/
+.cbox{
+    width: 150px;
+    background-color: #EFEFEF;
+    height: 170px;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 32px;
+}
+
+/*盒子内操作提示文字样式*/
+.f-hint{
+    padding-top: 5px;
+    color: #F76611;
+}
+.l-hint{
+    padding-top: 5px;
+    color: #0ab38b;
+}
+/*盒子内卡片样式*/
+.f-card{
+    width: 35px;
+    float: left;
+    background-color: #F76611;
+    height: 35px;
+    margin: 3px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #ffffff;
+    position: relative;
+    z-index: 200;
+}
+.f-card:hover,.f-card:active{
+    width: 35px;
+    float: left;
+    background-color: rgba(255, 103, 17, 0.64);
+    height: 35px;
+    margin: 3px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #ffffff;
+    position: relative;
+    z-index: 200;
+}
+
+.l-card{
+    width: 35px;
+    float: left;
+    background-color:  #0ab38b;
+    height: 35px;
+    margin: 3px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #ffffff;
+    position: relative;
+    z-index: 200;
+}
+.l-card:hover,.l-card:active{
+    width: 35px;
+    float: left;
+    background-color:  #0acda6;
+    height: 35px;
+    margin: 3px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #ffffff;
+    position: relative;
+    z-index: 200;
+}
+
+
+/*查看结果按钮样式*/
+#buttonarea{
+    margin-top: 18px;
+}
+#subbtn{
+    width: 220px;
+    height: 45px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    color: #ffffff;
+    background-color:  #0ab38b;
+    border: none;
+    border-radius: 10px;
+}
+#subbtn:hover,#subbtn:active{
+    width: 220px;
+    height: 45px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    color: #ffffff;
+    background-color: #0acda6;
+    border: none;
+    border-radius: 10px;
+}
+/*右边区域样式*/
+#airight{
+    width: 580px;
+    float: right;
+}
+
+/*作业标题字样*/
+#homemessage{
+    padding: 30px 0 0 0 ;
+}
+.aititle{
+    color: #494949;
+    padding-bottom: 5px;
+}
+
+/*结果承载区*/
+#airesult-wrapper{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#airesult{
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    border: solid 1px #c9c9c9;
+    border-radius: 10px;
+}
+/*结果承载区标题样式*/
+.resulttitle{
+    padding: 17px;
+    font-weight: 100;
+}
+
+#air-container{
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    height: auto;
+}
+.re-box{
+    width: 125px;
+    background-color: #EFEFEF;
+    height: 125px;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 32px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.result-card{
+    width: 35px;
+    float: left;
+    background-color: #0ab38b;
+    height: 35px;
+    margin: 3px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #ffffff;
+    position: relative;
+    z-index: 200;
+}

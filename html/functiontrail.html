@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var opentable =[];
+        var a1 = [1,2,3,4,5,6,999];
+        var a2 = [1,2,3,5,6,7,999];
+        var a3 = [1,2,3,5,6,7,999];
+        var a4 = [1,2,3,5,6,7,1];
+        opentable.push(a1);
+        opentable.push(a2);
+        opentable.push(a3);
+        opentable.push(a4);
+        alert(openept(opentable));
+
+        function openept(optable){
+            var cout = 0;
+            for(var i = 0;i<optable.length;i++){
+                if(optable[i][optable[i].length-1]==999){
+                    cout++;
+                }
+            }
+            return (cout == optable.length);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
