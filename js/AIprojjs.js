@@ -3,6 +3,7 @@
  */
 $(document).ready(function(){
 
+    // UI部分代码
     // make all the cards draggable
     $( "div", $(".cardswrapper") ).draggable({
         revert: "invalid", // when not dropped, the item will revert back to its initial position
