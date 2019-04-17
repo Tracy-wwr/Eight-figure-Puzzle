@@ -1,0 +1,25 @@
+{
+  "name": "eight-figure-puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangWurong/Eight-Figure-Puzzle.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "oldFluffyRabbit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WangWurong/Eight-Figure-Puzzle/issues"
+  },
+  "homepage": "https://github.com/WangWurong/Eight-Figure-Puzzle#readme",
+  "devDependencies": {
+    "electron": "^4.1.4"
+  }
+}
